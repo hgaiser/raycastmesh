@@ -1,0 +1,3 @@
+This source code is provided in snippet form for whenever you need a quick and dirty way to raycast against a static triangle mesh.  I would strongly recommend that you use 'Opcode' by Pierre Terdiman if you need a robust general purpose raycasting system.  However; OpCode is a significant amount of source code and, sometimes, it might be preferable to use this small snippet implementation instead which requires only a single header and CPP file for the implementation.
+
+This implementation uses a balanced axis-aligned bounding volume tree.  Which is similar, if not identical, to what Opcode uses.  It's a relatively small source file and extremely easy to integrate into any code base.  It also might be of interest as a learning tool for developers.
